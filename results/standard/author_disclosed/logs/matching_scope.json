@@ -1,0 +1,8 @@
+{
+  "n_treated": 500,
+  "n_candidates": 55333,
+  "unique_matched_candidates": 424,
+  "with_replacement": true,
+  "distance": "raw features, NOT fitted propensity-score distance",
+  "outcomes": "No outcome reconstruction for newly matched candidates; only matching covariates are disclosed."
+}

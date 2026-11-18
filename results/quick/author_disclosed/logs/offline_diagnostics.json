@@ -1,0 +1,49 @@
+{
+  "source_rows": 3000,
+  "unique_sku_values": 2607,
+  "row_order": "original within each SKU; no timestamps available",
+  "methods": {
+    "OPT": {
+      "negative_orders": 854,
+      "fallback_indices": 11,
+      "skipped_prearrival_steps": 2068
+    },
+    "E2E_RNN": {
+      "negative_orders": 525,
+      "fallback_indices": 11,
+      "skipped_prearrival_steps": 2068
+    },
+    "Bm1": {
+      "negative_orders": 663,
+      "fallback_indices": 11,
+      "skipped_prearrival_steps": 2068
+    },
+    "Bm2": {
+      "negative_orders": 703,
+      "fallback_indices": 11,
+      "skipped_prearrival_steps": 2068
+    },
+    "Normal": {
+      "negative_orders": 477,
+      "fallback_indices": 11,
+      "skipped_prearrival_steps": 2068
+    },
+    "Gamma": {
+      "negative_orders": 613,
+      "fallback_indices": 11,
+      "skipped_prearrival_steps": 2068
+    },
+    "gbm": {
+      "negative_orders": 582,
+      "fallback_indices": 11,
+      "skipped_prearrival_steps": 2068
+    },
+    "Normal_formula7": {
+      "negative_orders": 458,
+      "fallback_indices": 11,
+      "skipped_prearrival_steps": 2068
+    }
+  },
+  "normal_formula7_scope": "sensitivity: only Normal predictions changed; author trajectory retained",
+  "caveat": "Stored OPT column is evaluated under author checkpoint mechanics; not a certified lower bound here."
+}

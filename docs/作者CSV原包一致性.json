@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "n_csv": 9,
+  "original_zip_sha256": "a24e8531c846c3c17f35d422c2218c219d84693d9225301ad83ccfc7e7ee65de",
+  "files": [
+    {
+      "path": "data/author/control_demand_vlt.csv",
+      "sha256": "4ef7baeb07d7a7ec14ddf1c4e16e00c87e0b7e22db0c3de59b93423c4b97a923",
+      "source_member": "replication_package_MS-FTBDA-20-01585/control_demand_vlt.csv"
+    },
+    {
+      "path": "data/author/df_test.csv",
+      "sha256": "491996c425d250a2ab2b864b18c2c617c97e8249ffba403d6aed1c5e5a20208e",
+      "source_member": "replication_package_MS-FTBDA-20-01585/df_test.csv"
+    },
+    {
+      "path": "data/author/E2E-model-data/Data/rdc_sales_1320.csv",
+      "sha256": "7b4e79c2705386c3057c1edee7d652b95160a8e802e7352df7f4e794d4599b93",
+      "source_member": "replication_package_MS-FTBDA-20-01585/E2E-model-data/Data/rdc_sales_1320.csv"
+    },
+    {
+      "path": "data/author/E2E-model-data/Data/stock.csv",
+      "sha256": "a736e471c3f0845d2acf52dfa5362919d65844edd6e8473024718584043995fb",
+      "source_member": "replication_package_MS-FTBDA-20-01585/E2E-model-data/Data/stock.csv"
+    },
+    {
+      "path": "data/author/E2E-model-data/Data/vlt_2019_0305.csv",
+      "sha256": "089aba08155720b64c47a44d2a68f139f2142f920628532e9f5742081b2883a8",
+      "source_member": "replication_package_MS-FTBDA-20-01585/E2E-model-data/Data/vlt_2019_0305.csv"
+    },
+    {
+      "path": "data/author/order_e2e_post_500.csv",
+      "sha256": "f7afe2a31a262f2ca29671c54ffc428dfeff716e35d23f236c987bddc7fdf925",
+      "source_member": "replication_package_MS-FTBDA-20-01585/order_e2e_post_500.csv"
+    },
+    {
+      "path": "data/author/order_e2e_pre_500.csv",
+      "sha256": "f5c6a3f3c3dbc25394f8d19d22d1d8c94cabb705d0e47efafabc8f3bac3ce5a8",
+      "source_member": "replication_package_MS-FTBDA-20-01585/order_e2e_pre_500.csv"
+    },
+    {
+      "path": "data/author/order_jd_post_500.csv",
+      "sha256": "40021c666a3e8c3cf8a8a1e36868bdc2de8b8626a04c5961b4976afc0d703e07",
+      "source_member": "replication_package_MS-FTBDA-20-01585/order_jd_post_500.csv"
+    },
+    {
+      "path": "data/author/order_jd_pre_500.csv",
+      "sha256": "d9cb5c9f7b73ab68630d0b25135df8a2ca650122e4d83f15a0e1bbdad131b209",
+      "source_member": "replication_package_MS-FTBDA-20-01585/order_jd_pre_500.csv"
+    }
+  ]
+}

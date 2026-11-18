@@ -1,0 +1,8 @@
+{
+  "scope": "four disclosed tables, each 500 rows; not full article sample",
+  "author_checkpoint": "h=1,b=9; no intercept; sum inv[:-1]; ratio denominator len(inv)",
+  "paper_hb_intercept_sensitivity": "only changes h,b to 12,88 and adds intercept; same disclosed windows and scoring convention",
+  "did_warning": "Legacy rowwise t-test retained for code comparison. Stable cross-file panel linkage is not verified. No causal guarantee.",
+  "normalization": "Costs are sums per record, then unweighted means. Unequal window lengths are retained, not silently standardized.",
+  "turnover": "ave_inv/ave_demand; negative values clipped to zero as in notebook except legacy post-control DiD vector."
+}

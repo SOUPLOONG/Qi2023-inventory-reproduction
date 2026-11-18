@@ -1,0 +1,16 @@
+{
+  "source": "SYNTHETIC",
+  "n_series": 2000,
+  "start": 330,
+  "days": 30,
+  "all_policy_specific_states": true,
+  "a_nonnegative": true,
+  "complete_day_costs": true,
+  "no_reset_backorders": true,
+  "BM_quantiles_selected_on_validation_only": {
+    "BM1": 3,
+    "BM2": 3
+  },
+  "OPT": "same initial stock and realized path; clairvoyant decisions only",
+  "terminal": "oracle truncates last arrival interval; stationary learned/base-stock policies have no separate terminal-value training"
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 20261019,
+  "n_series": 2000,
+  "days": 420,
+  "horizon": 20,
+  "epochs": 10,
+  "batch_size": 256,
+  "optimizer": "adam",
+  "val_start": 280,
+  "val_days": 30,
+  "test_start": 330,
+  "test_days": 30,
+  "field_epochs": 20,
+  "device": "cuda",
+  "force": false,
+  "data_signature": "acb91cd4f33f045657d16afd320dccbe657ad1cdfe6971115a65c19dc74514b1"
+}

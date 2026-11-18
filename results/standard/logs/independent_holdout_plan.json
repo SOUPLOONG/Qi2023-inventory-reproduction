@@ -1,0 +1,17 @@
+{
+  "seeds": [
+    20261020,
+    20261021,
+    20261022
+  ],
+  "n_series_each": 1000,
+  "days": 420,
+  "evaluated_days": [
+    370,
+    399
+  ],
+  "environment": "lead2_hybrid",
+  "purpose": "evaluation only",
+  "selection_or_retraining": false,
+  "source": "SYNTHETIC, not JD data"
+}

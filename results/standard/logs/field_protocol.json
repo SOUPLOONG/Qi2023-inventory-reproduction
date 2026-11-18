@@ -1,0 +1,30 @@
+{
+  "source": "SYNTHETIC policy intervention, not JD field experiment",
+  "n_series": 2000,
+  "n_treated": 1016,
+  "matched_pairs": 1016,
+  "unique_matched_controls": 484,
+  "pre": [
+    330,
+    359
+  ],
+  "post": [
+    370,
+    399
+  ],
+  "h": 12,
+  "b": 88,
+  "continuous_history": "burn-in300..329; pre330..359; bridge360..369; intervention370..399. Inventory and pending orders carried across all boundaries; schedules anchored day300.",
+  "treatment_policy": "V4_MatchedCalibrator",
+  "training_scope": "V4 extension: field-cost-trained calibration, 2..8-day leads and hybrid shortages matched in train/validation/test",
+  "observation": "true historical demand fully observed, including unmet/lost demand",
+  "field_model_retrained_cost_ratio": 7.333333333333333,
+  "with_replacement": true,
+  "matching": "estimated propensity score, pre-treatment covariates only",
+  "cluster": "original synthetic series ID; repeated matches and both periods clustered together",
+  "supply": "offline vendor lead doubled to 2..8 days; order arrivals can cross",
+  "crossings_in_E2E_orders": 26,
+  "shortage": "hybrid backlog capped by pending orders; uncovered demand is lost and penalized once",
+  "turnover": "average positive on-hand / average demand, days, lower means less inventory occupation",
+  "identification": "Simulated assignment uses observed pre-covariates; no claim of real-world causal validation"
+}

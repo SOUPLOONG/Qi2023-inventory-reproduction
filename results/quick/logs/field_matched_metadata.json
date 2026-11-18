@@ -1,0 +1,38 @@
+{
+  "spec": {
+    "version": 4,
+    "lead_scale": 2,
+    "shortage_mode": "hybrid",
+    "h": 12.0,
+    "b": 88.0,
+    "train": [
+      220,
+      279
+    ],
+    "validation": [
+      330,
+      359
+    ],
+    "validation_environment": "lead2_hybrid_for_both_calibrators",
+    "test": [
+      370,
+      399
+    ],
+    "epochs": 4,
+    "batch_size": 256,
+    "lr": 0.002,
+    "seed": 20261420,
+    "context_dim": 149,
+    "max_adjustment": 8.0,
+    "data_signature": "e9fcbe052f510e9138a484fd6d80bb50a1cc8f3c0323663be555ce6f87e775db",
+    "full_panel_signature": "2d76f7c549dd6567294e13467eb01691d4bc4fd082fc258a022d4df4727a5d3a",
+    "encoder_sha256": "8b0f503f73864e0235b2c9860ba93194e62d6917384791b19131a416906bb622",
+    "source_signature": "7674d113c0a4c9031ba3355acfab620603781f36219e7226b296c73413c5f16f|34c7d0ffd281531e241d8dd42bf3d133ae2ad10de20888c3407379c408055f73|b2dbb023edd2e6f40bd1a96aa4a28a68c9454f90347f2a7d4c1d77fca2556e05"
+  },
+  "best_epoch": 4,
+  "best_validation_cost": 37584.76171875,
+  "train_seconds": 3.2626374000001306,
+  "training_series": 80,
+  "baseline_epoch0_cost": 39354.79296875,
+  "source": "SYNTHETIC engineering extension, not original Qi supervised architecture"
+}

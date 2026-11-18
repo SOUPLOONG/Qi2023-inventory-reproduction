@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "test_methods": 9,
+  "independent_LP_cases": 120,
+  "finite_difference_environments": 4,
+  "command": "python -m unittest discover -s tests -v"
+}

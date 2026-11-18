@@ -1,0 +1,45 @@
+{
+  "all_nondefault_settings_retrained": true,
+  "cost_ratio_changes_labels_and_actions": true,
+  "settings": {
+    "layers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "hidden": [
+      30,
+      40,
+      50,
+      60
+    ],
+    "lr": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "fraction": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "ratio": [
+      1.0,
+      3.0,
+      5.0,
+      9.0,
+      19.0
+    ],
+    "seed": [
+      20261019,
+      20261020
+    ]
+  },
+  "data_fraction": "fraction of unique training series; same validation and test panels",
+  "selection": "best epoch by validation loss; no choice by test ranking",
+  "budgets": "same epoch count and batch size across settings; measured time may vary with hardware",
+  "source": "SYNTHETIC, no expectation of matching original numerical values or rankings"
+}

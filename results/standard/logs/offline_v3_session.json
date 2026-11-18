@@ -1,0 +1,30 @@
+{
+  "profile": "standard",
+  "stage": "all",
+  "completed": [
+    "main",
+    "sensitivity",
+    "field",
+    "author_disclosed"
+  ],
+  "elapsed_seconds": 822.7686764999999,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.3",
+    "scipy": "1.13.1",
+    "torch": "2.4.1+cu124",
+    "lightgbm": "4.6.0",
+    "statsmodels": "0.14.6",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.0"
+  },
+  "warnings": [],
+  "source": "SYNTHETIC full-scope reconstruction + separate disclosed-data reproduction",
+  "daily_rows": 840000,
+  "training_samples": 47806,
+  "validation_samples": 8975
+}

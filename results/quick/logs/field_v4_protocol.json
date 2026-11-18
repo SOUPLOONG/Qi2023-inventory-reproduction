@@ -1,0 +1,37 @@
+{
+  "version": 4,
+  "source": "SYNTHETIC field calibration engineering extension",
+  "matching_environment": {
+    "train": "lead2 / hybrid",
+    "validation": "lead2 / hybrid",
+    "test": "lead2 / hybrid"
+  },
+  "cost_training_days": [
+    220,
+    279
+  ],
+  "upstream_encoder_information_ends": 329,
+  "calibration_validation_days": [
+    330,
+    359
+  ],
+  "test_days": [
+    370,
+    399
+  ],
+  "test_used_for_selection": false,
+  "baseline_candidate_epoch": 0,
+  "objective": "actual rolling holding + stockout cost, differentiable queues",
+  "online_state": "observed net stock and total open quantity; realized future arrival dates withheld",
+  "frozen_encoder": "original offline MQRNN main; weights selected no later than day329",
+  "normal_residual_policy": true,
+  "max_adjustment_in_scale_units": 8,
+  "field_calibration_uses_closed_form_labels": false,
+  "matched_best_epoch": 4,
+  "offline_control_best_epoch": 4,
+  "numpy_torch_max_cost_difference": 0.018433313234709203,
+  "observed_true_demand_assumption": true,
+  "all_policies_share_initial_state_and_demand": true,
+  "attribution_limit": "v3 to v4 changes policy structure and training; offline vs matched calibrator holds architecture and field-validation environment fixed while changing training dynamics",
+  "original_paper_exact_replication": false
+}

@@ -1,0 +1,11 @@
+# Validated on Python 3.12.10 / Windows. Install GPU-enabled torch separately if desired.
+numpy==1.26.4
+pandas==3.0.3
+scipy==1.13.1
+torch==2.4.1
+lightgbm==4.6.0
+statsmodels==0.14.6
+scikit-learn==1.9.0
+matplotlib==3.11.0
+nbformat>=5.10,<6
+jupyterlab>=4,<5

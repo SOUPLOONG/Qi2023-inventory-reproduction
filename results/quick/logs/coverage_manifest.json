@@ -1,0 +1,36 @@
+{
+  "source": "synthetic method reconstruction",
+  "expected_tables": {
+    "costs_main.csv": true,
+    "table1_synthetic_composition.csv": true,
+    "table1_paper_categories_reference.csv": true,
+    "table_B1_hyperparameters.csv": true,
+    "table_B2_layers.csv": true,
+    "table_B3_neurons.csv": true,
+    "table_B4_learning_rate.csv": true,
+    "table_B5_data_size.csv": true,
+    "table_B6_initialization.csv": true,
+    "table_cost_ratio.csv": true,
+    "table2_synthetic_field.csv": true,
+    "table3_synthetic_regression.csv": true,
+    "table4_synthetic_did.csv": true,
+    "field_v4_factorial.csv": true,
+    "independent_holdout_summary.csv": true
+  },
+  "all_expected_tables_present": true,
+  "figures": [
+    "field_v4_comparison.png",
+    "figure1_architecture.png",
+    "figure2.png",
+    "figure3_matching.png",
+    "figureB1_data_size.png",
+    "figureB2_cost_ratio.png",
+    "figureB3_initialization.png",
+    "offline_costs.png",
+    "sensitivity_hidden.png",
+    "sensitivity_layers.png",
+    "sensitivity_lr.png",
+    "training_curves.png"
+  ],
+  "not_exact_JD_replication": true
+}

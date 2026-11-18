@@ -1,0 +1,14 @@
+{
+  "n_samples": 56781,
+  "split_counts": {
+    "train": 47806,
+    "val": 8975
+  },
+  "snapshot_dimensions": 132,
+  "known_future_plan_dimensions": 60,
+  "train_label_latest_day": 279,
+  "validation_label_latest_day": 329,
+  "purge": "Whole forecast horizon must finish before next temporal split",
+  "state_policy": "causal Normal behavior plus future-independent random stock augmentation",
+  "forks": "encoder positions 20,24,28; shared decoder; calibration scale uses days0..119 only"
+}

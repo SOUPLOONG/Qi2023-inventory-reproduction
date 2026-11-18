@@ -1,0 +1,25 @@
+{
+  "tag": "layers_1",
+  "spec": {
+    "hidden": 50,
+    "layers": 1,
+    "lr": 0.001,
+    "fraction": 1.0,
+    "b": 9.0,
+    "seed": 20261019,
+    "forecast_only": false,
+    "epochs": 2,
+    "batch": 128,
+    "optimizer": "adam",
+    "H": 20,
+    "data_signature": "e9fcbe052f510e9138a484fd6d80bb50a1cc8f3c0323663be555ce6f87e775db",
+    "implementation_signature": "8b46e9fb34577b4c706bb3947596cfe552f9a0e5722299f6ebec63660e93544b|3e98d4326043f1b21ea3f622fce6a75ed657e20f867373e320ea999b264da2cc|1270e0d36222ab73dac205f9493002e10a84410c1dff8acb086ed700e6a12f89|b2dbb023edd2e6f40bd1a96aa4a28a68c9454f90347f2a7d4c1d77fca2556e05"
+  },
+  "train_samples": 1932,
+  "validation_samples": 362,
+  "training_series": 80,
+  "best_epoch": 2,
+  "best_validation_loss": 2.5781474113464355,
+  "train_seconds": 1.6113158000007388,
+  "synthetic": true
+}

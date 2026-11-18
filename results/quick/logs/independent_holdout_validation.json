@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "weights_unchanged": true,
+  "model_sha256": {
+    "field_matched.pt": "c5c93a545821714d2c1c390f1a69db539a19bb1dbbc4728d5867e38be3b97d4f",
+    "field_offline_control.pt": "d7fe3d0363c3dcb3650ef35651f2ccf8d7eea5db0cd1e54a204da0cfc27e7977",
+    "field_ratio.pt": "f4d9ac69314503e44111a1036db4ceb4a3edd31759cfe08467e220b04450c642",
+    "forecast.pt": "e1b7b2af00324a0d71510eb9d642975bae8ba7c6651c142f3ad1e1f04f47409e",
+    "fraction_0.2.pt": "dc815fcc4c69fdd1404efe0037fa24d952c5298197332e135612ce078f3cdb31",
+    "fraction_0.4.pt": "9ae35d5b15fd546b837a957ef40d46264fa1e7ed07b2955185eefc613d61d230",
+    "fraction_0.6.pt": "08826af9bbecc1d1104f0e000adc2024edd1a9575842db9e61d1e26aee66e181",
+    "fraction_0.8.pt": "618527513d2fbeffaf695a4977f71283b6431f450b1b766e9939b4cebbb8904f",
+    "hidden_30.pt": "ba816908fc7e3e6c7e926940388c212ff4c49f22f09b0209ebb3d53f2e040b3b",
+    "hidden_40.pt": "9d81616bedc2bdd8e539b03635c9a9f3874a4926d8f2eed5612fe513a43c94ff",
+    "hidden_60.pt": "650cc5e60537adbb0d7163c424895e4c9888c8d234a8725cfe758cc701737312",
+    "layers_1.pt": "98db0ac4363b18715f7ba5340105744e6d7432ae76dc1891131b2f68ca6a7ca4",
+    "layers_3.pt": "85507457a9dfe9d338827d3f2c777b1d3e53d3f0ce0aeae3a97ea0e60223c090",
+    "layers_4.pt": "e14b5413e470c7aded8acffa93ba6576e54fdea8dcd40905e381f2ce2f1afbb1",
+    "lr_0.0001.pt": "7ec1693e6dbb5c7acf7ac4ba48da7a81d44d96eaadab5192a2bfef6e06c79d91",
+    "lr_0.01.pt": "1051272b1d845267104297b5f1f9a4c8be954b99ce8b164a969c95b106f0918e",
+    "main.pt": "8b0f503f73864e0235b2c9860ba93194e62d6917384791b19131a416906bb622",
+    "ratio_1.pt": "d3105cd665e27643eee3a488d5cdc275591f2c3e467e8ce4ac07f9a132ebef1b",
+    "ratio_19.pt": "a2509d8422eb8f75ec89cba27e04923d979a0b52024defebd5a23843222a255b",
+    "ratio_3.pt": "6df938a19df2287648f66951bd0f5827ec75c56c0dfc549f16f3974bbe0d077f",
+    "ratio_5.pt": "da5a455b4e92ce38ac5d9ee87e8f33a360e74cb12c9afa89feb783dc261df5d3",
+    "seed_2.0261e+07.pt": "3a378e5b4821b296f8bdff2d20202b7fff924ea866a4da5d81cbc58b2f4df350"
+  },
+  "n_panels": 3,
+  "n_series_per_panel": 80,
+  "not_used_for_selection": true
+}

@@ -1,0 +1,9 @@
+{
+  "version": "4.6.0",
+  "actual_LightGBM": true,
+  "features": 48,
+  "training_samples": 1932,
+  "validation_samples": 362,
+  "best_iteration": 90,
+  "train_seconds": 0.32151189999967755
+}

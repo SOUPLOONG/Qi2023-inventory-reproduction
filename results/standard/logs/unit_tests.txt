@@ -1,0 +1,14 @@
+test_autograd_matches_independent_finite_difference (test_field_v4.FieldV4Tests.test_autograd_matches_independent_finite_difference) ... ok
+test_baseline_initialization_and_nonnegative_actions (test_field_v4.FieldV4Tests.test_baseline_initialization_and_nonnegative_actions) ... ok
+test_future_outcomes_not_policy_inputs_and_first_action_invariance (test_field_v4.FieldV4Tests.test_future_outcomes_not_policy_inputs_and_first_action_invariance) ... ok
+test_independent_simulators_four_environments_and_rollout_gradient (test_field_v4.FieldV4Tests.test_independent_simulators_four_environments_and_rollout_gradient) ... ok
+test_invalid_closed_form_or_mismatched_features_rejected (test_field_v4.FieldV4Tests.test_invalid_closed_form_or_mismatched_features_rejected) ... ok
+test_continuous_field_boundary_equivalence (test_inventory.InventoryTests.test_continuous_field_boundary_equivalence) ... ok
+test_oracle_against_independent_global_lp_120_cases (test_inventory.InventoryTests.test_oracle_against_independent_global_lp_120_cases) ... ok
+test_piecewise_cost_and_hybrid_lost_once (test_inventory.InventoryTests.test_piecewise_cost_and_hybrid_lost_once) ... ok
+test_pipeline_causality_and_model_serialization (test_inventory.InventoryTests.test_pipeline_causality_and_model_serialization) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 3.673s
+
+OK

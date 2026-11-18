@@ -1,0 +1,16 @@
+{
+  "source": "SYNTHETIC; no JD raw data used",
+  "n_series": 2000,
+  "days": 420,
+  "daily_rows": 840000,
+  "seed": 20261019,
+  "panel_sha256": "46eb9336f3ab8f58b0b7573f10367361de0cebad83cbbb6a6e5228c13598f1ed",
+  "scale_calibration_days": [
+    0,
+    119
+  ],
+  "first_training_day": 180,
+  "process": "Gamma-Poisson seasonal demand; planned promotions; exogenous integer vendor leads",
+  "offline_no_crossover": "review>=5, lead<=4",
+  "raw_future_leads": "labels/evaluation only, not online inputs"
+}
